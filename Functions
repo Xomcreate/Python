@@ -1,0 +1,5 @@
+variable define inside the function is LOCAL INSCOPE 
+but outside the function is GLOBAL INSCOPE 
+
+assignment 
+read on python dates/ python math

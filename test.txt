@@ -1,0 +1,212 @@
+PYTHON FIRST TEST
+
+1. What is PYTHON and its key features 
+ans: python is high-level intepretated programming language that is used for web development, education, data analysis, 
+education and artificial intelligence
+key features are: it is versatile, easy to learn has a large community and and has more career oppotunties.
+
+2.How do you write a comment in python and what is the important of comment?
+ans: The importance of comment is to explain codes and to comment for single line you use the # and for the mutiple line comment you use the """ or '''
+
+3.what is the difference between print() and input() functions?
+ans: print is used to get the output of values or text to the screen. eg print(hello world) 
+input is used to get the user data or input on the keyboard;. eg input("i am chisom")
+
+4.provide an example of each aw do u declare of initialise variables in python? 
+ans: float variable = x = 5.13
+integer variable  = X = 10
+string variable  = "i am Xom"
+boolean = is_chisom
+list = fruits = [apple, mango, orange, watermelon]
+dictionary = {"name","chisom" "state","imo"}
+
+5. what are the basic data type in python? provide examples for int, float, string  and boolean.
+ans: 
+number data type: integer: X = 10
+float, X = 5.14
+text data type: strings: "i am Xom" "i love you"
+sequence data type: list: fruits = [apple, mango, orange, watermelon]
+tuple: ("biro", "book",  "book", sharpener")
+mapping data type: dictionary: {"name","chisom" "state","imo" "country" "nigeria"}
+boolean types: is_chisom
+
+6.what is the difference between list and tuple in python? 
+ans: list are mutable and can be modified while tuple is not mutable and can not be modified after creation.'
+list uses the [] brackets while tuple uses the () brackets. 
+
+
+7. what is a conditional statement in python? write a program to check if number is postive negative or zero? 
+ans: python conditional statement is a specfic code used to execute the a certain conditions or set of conditions.
+
+example: X = float(input("input number"))
+if X > 0
+print(f"{x} is a postive number" )
+elif X < 0
+print(f"{x} is a negative number")
+else:
+print(f"{x} is zero")
+
+8. explain the concepts of loops in python. what the difference between for and while loop?
+ans: the concepts of loops is a block of code used to exceute a code that is to be repeated many times until a particular condition is met.
+difference.
+for loop is implicit loop condition.  ilerate over a sequence. not manually updated
+while loop is explicit loop condition. manually updated. over a condition and it true.
+
+9.how do you write a function in python? write a simple function to caculate the square of a number
+ans:  def function_name(parameters):
+        function body and it must be indented
+        excute code
+
+example: def square(number)
+            result number ** 2
+        number = 5 
+        result = square(number)
+        print(f"the square of {number} is  equal {result}" )
+10. what is the purpose of the len() function in python? demonstrate it by finding the length of a string. would you like me to provide solutions or additional exercises basesd 
+on these questions
+ans: the purpose of len() is used to check the length of string in a code 
+example: 
+
+General concepts:
+1. What is python and why is it popular?
+ans:  python is high-level intepretated programming language that is used for web development, education, data analysis, 
+education and artificial intelligence and it is popular because it is versatile, easy to learn has a large community and and has more career oppotunties.
+
+2.What are the basic rules for naming a variable in python? 
+ans: the basic rules are indentation, error handling, comments, operators, functions, comments.
+
+3:what is the difference between dynamically typed and statically typed language, and which type is python language? 
+ans: dynamic type of language which holds different types of data while static can only hold one specific data.
+python is a dynamic language.
+
+4.How do u display a message on the screen using python? 
+ans: we can display message on the screen using PRINT()
+
+5.Data types and variables, what are the basic data type in python, provide example of int, float, string and boolean
+ans:
+number data type: integer: X = 10
+float, X = 5.14
+text data type: strings: "i am Xom" "i love you"
+sequence data type: list: fruits = [apple, mango, orange, watermelon]
+tuple: ("biro", "book",  "book", sharpener")
+mapping data type: dictionary: {"name","chisom" "state","imo" "country" "nigeria"}
+boolean types: is_chisom
+
+6. what is the difference between mutable and immutable data?
+ans: the difference is mutable can be modified (lists, dioctionary, sets)
+while immutable cannot be modified (integer, floats, strings, tuples)
+
+7. how do you peform type conversion in python? convert a string to an integer with an example. 
+ans: floats to integer, integers to float, strings to integer, integer to strings, float to strings, boolean to integer, 
+integer to boolean.
+example: string to integer: x=5 y=int(x) print(y) output= 5
+
+Control flow
+
+8.what are the conditional statements in python. write a program to know if the number is even or odd.
+ans: python conditional statement is a specfic code used to execute the a certain conditions or set of conditions.
+
+the code for odd number:
+range (1,50)
+for Q in range(1,50):
+     if ((Q%2)==1):
+          print(Q)
+for even number:
+range (1,50)
+for Q in range(1,50):
+     if ((Q%2)==0):
+          print(Q)
+
+          to detect if it even or odd:
+def check_even_odd(num):
+ if num % 2 -- 0:
+    return f"{num} is even"
+ else: return f" {num} is odd"
+num = int(input("type a number"))
+print(check_even_odd(num))
+
+9.  what is the differnce between if, elif, else statement nd write a program to find the largest of three numbers using if-else statements.
+if statement : use to check a condition or excutes a block of code 
+elif statement: used to check mutiple conditions or executes diffferent block of code based on the condition that is true
+else statement: used to specify a block of code to execute when if condition is false
+
+examples:
+
+
+
+Loops:
+10. what are the loops in python? difference between a for loop and while loop?
+loops in python.
+ans: the concepts of loops is a block of code used to exceute a code that is to be repeated many times until a particular condition is met.
+difference.
+for loop is implicit loop condition.  ilerate over a sequence. not manually updated
+while loop is explicit loop condition. manually updated. over a condition and it true.
+
+11. write a program to print the first 10 number of multiplication tables
+ans: num = int(input(enter the table number))
+print (multiplication table of {num})
+for i in range (1,11)
+print (f"{num} X {i} = {num * i}")
+
+12. what is the purpose of break and continue in loops and write a program to calucate sum of all numbers from 1-10 using a loop
+ans: break statement is used to termainate the loop entirely while continue statement is used to skip the current illeration and move to the next
+
+examples:
+n= 100
+sum n*(n+1) //2
+print ("the sum of numbers from 1 to", n , "1s:", sum )
+
+functions
+
+
+13.what is a function in python and why is it used
+ans: function is a block of code that can be executed multiple times from different parts of your program
+it is used for modularity, code reuseabilty, errror handling, abstrasction.
+
+14.write a function to calucate the area of rectangle?
+ans:
+def caculate_area_rectangle(length,width):
+return length * width
+length = float(input("enter your length"))
+width = float(input("enter your width"))
+
+print(f"Area{caculate_area_rectangle(length,width):}")
+
+
+15. what are default arguments in python functions provide examples.
+ans: default arguments are arguments assigned to a function arguments when no value is provided by the caller
+example: def greet (name, message = "hello")
+print(f"{message} {name}!")
+
+Collections
+
+16. what is the difference between list, tuple , and set in python
+ans: list are mutable and can be modified while tuple is not mutable and can not be modified and set is an unordered collection, no duplicate allowed, and mutable after creation.'
+list uses the [] brackets while tuple uses the () brackets. 
+
+17. how do you add and remove elements of a list use the append, insert and remove.
+ans.
+append = my_list = [1,2, 3]
+my_list.append(4)
+print(my_list) output(1,2,3,4)
+
+insert = my_list = [1,2, 3]
+my_list.insert(1,4)
+print(my_list) output(1,4,2,3)
+
+remove = my_list = [1,2, 3,4,5]
+my_list.remove(2)
+print(my_list) output(1,3,4,5)
+
+
+18.what is a dictionary in python? 
+dictionary is a data structure that stores a collection of key-value pairs. 
+
+
+19. create a dictionary to store information about a student and retrieve values by keys?
+ans. dictionary: {"name","chisom" "state","imo" "country" "nigeria","class" "ss3"}
+
+
+
+
+
